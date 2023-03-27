@@ -22,8 +22,17 @@ const Products = () => {
            }
            </div>
            </div>
-           <div>
-            <h1>product details</h1>
+           <div className='summary'>
+            <h6>Order Summary</h6>
+            <div className='details'>
+            <p>Selected Items:</p>
+            <p>Total Price:</p>
+            <p>Total Shipping Charge:</p>
+            <p>Tax:</p>
+            <h2>Grand Total: </h2>
+            </div>
+            <button className='clearBtn'>Clear Cart</button>
+            <button className='reviewBtn'>Review Order</button>
            </div>
         </div>
     );
