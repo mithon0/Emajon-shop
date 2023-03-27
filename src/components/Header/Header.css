@@ -1,0 +1,15 @@
+nav{
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+nav a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+}

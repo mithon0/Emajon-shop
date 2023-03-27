@@ -1,0 +1,42 @@
+.single-card {
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 300px;
+    height: 508px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.single-card img {
+    width: 286px;
+    height: 286px;
+    margin: 8px;
+    border-radius: 7px;
+
+
+}
+
+.card-details h5 {
+    size: 21px;
+    margin-top: 0;
+}
+
+.card-details p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.card-details {
+    margin-left: 11px;
+}
+
+.addToCart-btn {
+    width: 100%;
+    height: 48px;
+    background-color: #FFE0B3;
+    border-radius: 8px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+}
+

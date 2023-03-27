@@ -1,0 +1,17 @@
+.product-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+    
+}
+.card-container{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   margin: 5px;
+    
+}
+
