@@ -1,0 +1,48 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+
+.summary{
+    background-color: #FFE0B3;
+  margin: 0;
+ 
+}
+.summary h6{
+    font-size: 25px;
+    text-align: center;
+    color: #1C2B35;
+}
+.details{
+    margin-left: 23px;
+}
+.clearBtn{
+    padding: 14px 72px;
+    background-color: #FF3030;
+    border: red;
+    color: white;
+    font-size: 17px;
+    font-family: 'Lato';
+    border-radius: 8px;
+    margin: 16px;
+}
+.reviewBtn{
+    padding: 14px 58px;
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Lato';
+    border-radius: 8px;
+    margin:0px 16px;
+}
+.clearBtn:hover{
+background-color: #360505;
+}
+.reviewBtn:hover{
+    background-color: #5c3803;
+}
+
+span{
+    font-weight: bold;
+}

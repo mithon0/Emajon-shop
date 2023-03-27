@@ -14,36 +14,7 @@
    margin: 5px;
     
 }
-.summary{
+.cart-container{
     background-color: #FFE0B3;
-  margin: 0;
-}
-.summary h6{
-    font-size: 25px;
-    text-align: center;
-    color: #1C2B35;
-}
-.details{
-    margin-left: 23px;
-}
-.clearBtn{
-    padding: 14px 82px;
-    background-color: #FF3030;
-    border: none;
-    color: white;
-    font-size: 17px;
-    font-family: 'Lato';
-    border-radius: 8px;
-    margin: 16px;
-}
-.reviewBtn{
-    padding: 14px 68px;
-    background-color: #FF9900;
-    border: none;
-    color: white;
-    font-size: 17px;
-    font-family: 'Lato';
-    border-radius: 8px;
-    margin:0px 16px;
 }
 

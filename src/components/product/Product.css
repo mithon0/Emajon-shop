@@ -39,4 +39,8 @@
     position: absolute;
     bottom: 0;
 }
+.addToCart-btn:hover{
+    background-color: #e9910d;
+}
+
 
