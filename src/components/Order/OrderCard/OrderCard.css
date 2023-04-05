@@ -1,0 +1,11 @@
+.reviwe-container{
+    width: 571px;
+    display: flex;
+}
+.reviwe-container img{
+    width: 91px;
+    height: 91px;
+}
+.rv-container{
+    display: flex;
+}
