@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleLeft, faArrowAltCircleRight, faCartShopping, faCoffee, faTrash } from '@fortawesome/free-solid-svg-icons'
 import './Cart.css'
 
-const Cart = (props) => {
-    const { cart } = props;
+const Cart = ({cart,clearCart}) => {
+    
+
     let total = 0;
     let totalShiping = 0;
     let quantity = 0;
@@ -33,7 +34,7 @@ const Cart = (props) => {
                     <p>Tax: <span>${tex.toFixed(2)}</span></p>
                     <h2>Grand Total: <span>${grandTotal.toFixed(2)}</span> </h2>
                 </div>
-                <button className='clearBtn'>Clear Cart <FontAwesomeIcon icon={faTrash} /></button>
+                <button onClick={clearCart} className='clearBtn'>Clear Cart <FontAwesomeIcon icon={faTrash} /></button>
                 <button className='reviewBtn'>Review Order <FontAwesomeIcon icon={faArrowAltCircleRight} /></button>
             </div>
         </div>
